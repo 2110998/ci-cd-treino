@@ -8,7 +8,7 @@ jobs:
 
     steps:
       - name: Baixar o codigo
-      - uses: actions/checkout@v4
+        mses: actions/checkout@v4
 
       - name: configurar python
         uses: actions/setup-python@v5
@@ -18,6 +18,6 @@ jobs:
       - name: instalar dependencias
         run: pip install -r requeriments.txt
 
-      - name rodar testes
+      - name: rodar testes
         run: pytets
       
