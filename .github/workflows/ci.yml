@@ -1,6 +1,6 @@
 nome ci - rodar testes
 
-on: [push]
+on:[push]
 
 jobs:
   testar:
